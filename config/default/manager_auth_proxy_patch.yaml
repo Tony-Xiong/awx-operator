@@ -16,7 +16,7 @@ spec:
         # capabilities:
         #   drop:
         #     - "ALL"
-        image: registry.cn-beijing.aliyuncs.com/kubesphereio/kube-rbac-proxy:v0.13.0
+        image: bitnami/kube-rbac-proxy:0.13.1
         args:
         - "--secure-listen-address=0.0.0.0:8443"
         - "--upstream=http://127.0.0.1:8080/"
